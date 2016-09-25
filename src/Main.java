@@ -3,7 +3,7 @@ public class Main {
         System.out.println("Hello world!");
 
         Snake snake = new Snake(
-                new Point(0, 3),
+                new Point(10, 3),
                 new Point(1, 3),
                 new Point(2, 3),
                 new Point(3, 3)
@@ -22,18 +22,5 @@ public class Main {
             }
             System.out.println();
         }
-
-        /*
-
-        0 X X X 0 0 0 0
-        0 0 0 X 0 0 0 0
-        0 0 0 0 0 0 0 0
-        0 0 0 0 0 0 0 0
-        0 0 0 0 0 0 0 0
-        0 0 0 0 0 0 0 0
-        0 0 0 0 0 0 0 0
-
-
-         */
     }
 }
