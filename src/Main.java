@@ -5,7 +5,7 @@ public class Main {
         Snake snake = new Snake(
                 new Point(10, 3),
                 new Point(1, 3),
-                new Point(2, 3),
+                new Point(2, 31),
                 new Point(3, 3)
         );
         System.out.println(snake);
