@@ -7,6 +7,7 @@ public class Snake {
     private Point[] coords;
 
     public Snake(Point p1, Point p2, Point p3, Point p4) {
+
         this.coords = new Point[] { p1, p2, p3, p4 };
     }
 
