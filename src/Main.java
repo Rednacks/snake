@@ -1,4 +1,4 @@
-public class Main {
+public class Main { 
     public static void main(String[] args) {
         Fruit fruit = new Fruit(
                 new Point(7, 5)
@@ -12,6 +12,9 @@ public class Main {
 
         );
         System.out.println(snake);
+        //snake.down(); [1,3]; [2,3]; [3,3]; ([3,3] + [1,0])
+        //snake.left(); [2,3] [3,3] [4,3] ([4,3] + [0,-1])
+
 
         int height = 10;
         int width = 10;
